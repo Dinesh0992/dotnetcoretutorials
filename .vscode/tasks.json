@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/DemoApp/WebApplication1/WebApplication1.csproj",
+                "${workspaceFolder}/DemoApp/EfCorewithSQLServer/EfCorewithSQLServer.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/DemoApp/WebApplication1/WebApplication1.csproj",
+                "${workspaceFolder}/DemoApp/EfCorewithSQLServer/EfCorewithSQLServer.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -32,7 +32,7 @@
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/DemoApp/WebApplication1/WebApplication1.csproj",
+                "${workspaceFolder}/DemoApp/EfCorewithSQLServer/EfCorewithSQLServer.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
