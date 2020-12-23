@@ -1,0 +1,43 @@
+﻿@model IList<WebApplication1.Models.EmployeeViewModel>
+
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>EmployeeList</title>
+    </head>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>PhoneNo.</th>
+                    <th>Skill</th>
+                    <th>YearsExp</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var e in Model)
+                {
+                <tr>
+                    <td>
+                        @e.EmployeeID
+                    </td>
+                    <td>
+                        @e.EmployeeName
+                    </td>
+                    <td>
+                        @e.PhoneNumber
+                    </td>
+                    <td>
+                        @e.Skill
+                    </td>
+                    <td>
+                        @e.YearsExperience
+                    </td>
+
+                </tr>
+                }
+            </tbody>
+        </table>
+    </body>
+    </html>
